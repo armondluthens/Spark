@@ -15,11 +15,10 @@
         Top Banner
 /*-----------------------------------------------------------*/
 .banner{
-    float: left;
     width: 100%;
     margin: 0;
     height: 100px;
-    background-color: white;
+    background-color: green;
 }
 
 /*-----------------------------------------------------------
