@@ -43,6 +43,11 @@
 .navigation a:hover{
     opacity: 0.7;
 }
+.fixed{
+    float: left;
+    position: fixed;
+    width: 80%;
+}
 /*-----------------------------------------------------------
         Content
 /*-----------------------------------------------------------*/
@@ -54,10 +59,15 @@
 .content-1{
     float: left;
     width: 80%;
-    margin: 0 10% 0 10%;
-    height: 500px;
+    margin: 175px 10% 0 10%;
     background-color: white;
     border-bottom: 1px solid black;
+    background-image: url(oneway.jpg);
+    background-size: contain;
+    height: 500px;
+}
+.content-1 img{
+    
 }
 .content-2{
     float: left;
