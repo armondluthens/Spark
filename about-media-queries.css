@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+    body{
+        height: 1300px; 
+    }
+}
+@media screen and (max-width: 900px) {
+    body{
+        height: 1350px; 
+    }
+}
+@media screen and (max-width: 820px) {
+    body{
+        height: 1450px; 
+    }
+    .content-3 p{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 700px) {
+    body{
+        height: 1600px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        height: 1850px; 
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        height: 1000px; 
+    }
+}
