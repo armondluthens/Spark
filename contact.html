@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Poiret+One|Pontano+Sans" rel="stylesheet">
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>spark yoga &amp; barre pilates</title>
+    <meta name="description" content="SPARK web page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-media-queries.css">
+</head>
+<body>
+        <div class="grandparent-wrapper">
+        <div class="parent-wrapper">
+        <div class="fixed">
+            <div class="banner">
+                <h1>spark.</h1>
+            </div>
+            <div class="navigation">
+                <a href="index.html">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn">+ABOUT</button>
+                    <div class="dropdown-content">
+                        <a href="#">Teachers</a>
+                        <a href="classes.html">Classes</a>
+                        <a href="pricing.html">Pricing</a>
+                        <a href="about.html">Our Story</a>
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+                <a href="https://clients.mindbodyonline.com/classic/home?studioid=33154" target="_blank">SCHEDULE</a>
+                <a href="#">CONTACT</a>
+
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-5">
+                <h1>Get In Touch!</h1>
+                <h2>Address</h2>
+                <p>
+                    2799 100th Street
+                    Urbandale, Iowa 50322
+                </p>
+                <h2>Contact Information</h2>
+                <p>
+                    515.276.6087<br>
+                    <a href="mailto:info@sparkbarrepilatesyoga.com">info@sparkbarrepilatesyoga.com</a>
+                
+                    <div id="map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:440px;width:100%;'>
+                    <div id='gmap_canvas' style='height:440px;width:100%;'>
+                    </div><div><small>
+                        <a href="http://embedgooglemaps.com">
+                            embed google maps
+                        </a>
+                    </small></div>
+                    <div><small>
+                        
+                    </small></div>
+                    <style>
+                        #gmap_canvas img{
+                            max-width:none!important;
+                            background:none!important
+                        }
+                    </style>
+                    </div>
+                    <script type='text/javascript'>
+                        function init_map(){
+                            var myOptions = {
+                                zoom:10,
+                                center:new google.maps.LatLng(41.620688,-93.7556725),
+                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                            };
+                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                            marker = new google.maps.Marker({
+                                map: map,position: new google.maps.LatLng(41.620688,-93.7556725)
+                            });
+                            infowindow = new google.maps.InfoWindow({
+                                content:'<strong>Spark Barre Pilates & Yoga</strong><br>
+                                2799 100th Street, Urbandale, Iowa 50322<br>'
+                            });
+                            google.maps.event.addListener(marker, 'click', function({                                                                   infowindow.open(map,marker);                                                                                       });                                                
+                            infowindow.open(map,marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                    </script>
+                    
+                    </small></div><div><small></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.620688,-93.7556725),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.620688,-93.7556725)});infowindow = new google.maps.InfoWindow({content:'<strong>Spark Barre Pilates & Yoga</strong><br>2799 100th Street, Urbandale, Iowa 50322<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                
+            </div>
+            
+        
+        
+
+        <div class="footer-1">
+            <div class="link-container">
+                <a href="#"><img src="images/twitter.png"></a>
+                <a href="#"><img src="images/facebook.png"></a>
+                <a href="#"><img src="images/instagram.png"></a>
+            </div>
+        </div>
+        <div class="footer-2">
+            <p>Spark Barre Pilates and Yoga | 2799 100th Street, Urbandale, Iowa 50322 | 515.276.6087</p>
+            <a href="http://www.armondluthens.com">COPYRIGHT 2016 | ARMOND LUTHENS DESIGN</a>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+</html>

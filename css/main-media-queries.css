@@ -16,9 +16,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    body{
-        height: 1170px;
-    }
+    
     .content-1{
         height: 350px;
     }
@@ -40,9 +38,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    body{
-        height: 1120px;
-    }
+    
     .content-1{
         height: 300px;
     }
@@ -63,9 +59,7 @@
     }
 }
 @media screen and (max-width: 480px) {
-    body{
-        height: 930px;
-    }
+    
     .parent-wrapper{
         width: 100%;
         margin: 0;
